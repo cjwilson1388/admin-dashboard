@@ -9,7 +9,7 @@
     function moduleConfig($stateProvider, dashboardMenuProvider) {
 
         $stateProvider
-        .state('dashboard.seed-page', {
+        .state('dashboard.admin-default.seed-page', {
             url: '/seed-module/seed-page',
             templateUrl: 'app/seed-module/seed-page.tmpl.html',
             // set the controller to load for this page
@@ -24,7 +24,8 @@
             priority: 1.1,
             children: [{
                 name: 'Start Page',
-                state: 'dashboard.seed-page',
+                icon: 'fa fa-pagelines',
+                state: 'dashboard.admin-default.seed-page',
                 type: 'link'
             }]
         });

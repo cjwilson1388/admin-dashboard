@@ -2,5 +2,5 @@
   'use strict';
 
   angular
-      .module('seed-module', [ ]);
+      .module('seed-module', []);
 })();

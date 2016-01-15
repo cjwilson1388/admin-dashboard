@@ -35,12 +35,12 @@
 
         dashboardMenuProvider.addMenu({
             name: 'Authentication',
-            icon: 'zmdi zmdi-grade',
             type: 'dropdown',
             priority: 1.1,
             children: [{
                 name: 'Add User',
-                state: 'authentication.login',
+                icon: 'fa fa-users',
+                state: 'dashboard.admin-default.adduser',
                 type: 'link'
             }]
         });
