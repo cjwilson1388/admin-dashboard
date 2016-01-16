@@ -8,3 +8,4 @@ bower_components/
 
 src/app/br/authentication/auth.service.js
 src/app/br/authentication/user/user.service.js
+src/app/data/order.json
