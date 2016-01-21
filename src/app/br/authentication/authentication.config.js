@@ -24,13 +24,6 @@
           templateUrl: 'app/br/authentication/user/add-user.tmpl.html',
           controller: 'AddUserController',
           controllerAs: 'vm'
-        })
-
-        .state('authentication.profile', {
-          url: '/profile',
-          templateUrl: 'app/br/authentication/profile/profile.tmpl.html',
-          controller: 'ProfileController',
-          controllerAs: 'vm'
         });
 
         dashboardMenuProvider.addMenu({
